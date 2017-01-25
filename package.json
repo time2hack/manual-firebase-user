@@ -1,0 +1,32 @@
+{
+  "name": "manual-firebase-user",
+  "version": "1.0.0",
+  "description": "Manual user registration in firebase and restricting pages on the basis of logged-in state",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "start": "webpack-dev-server",
+    "build": "webpack --production --progress",
+    "watch": "webpack --production --progress --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/time2hack/manual-firebase-user.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/time2hack/manual-firebase-user/issues"
+  },
+  "homepage": "https://github.com/time2hack/manual-firebase-user#readme",
+  "dependencies": {
+    "firebase": "^3.0.5",
+    "jquery": "^3.0.0"
+  },
+  "devDependencies": {
+    "html-webpack-plugin": "^2.24.1",
+    "webpack": "^1.13.1",
+    "webpack-dev-server": "^1.14.1"
+  }
+}
